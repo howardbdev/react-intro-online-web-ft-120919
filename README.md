@@ -17,6 +17,7 @@ Today we will:
   - it's a way of thinking about the DOM in a modular fashion
     - ...using a virtual DOM (... a further object abstraction of the DOM)
   - a framework made by Facebook -- also open source with awesome documentation
+  - always runs in strict mode
 
 ## Features
 
@@ -45,7 +46,15 @@ A JS comparison: JS template strings
 
 ### Props
 
+- are received by a parent
+- are immutable -- cannot (should not) be changed by the receiving component
+
 ### State
+
+- owned by ONE React component
+- can be passed down to children as props
+- can be changed using `this.setState()`
+- **pre-hooks** only class components can have state!
 
 ### Let's play!!
 ## Getting started:
