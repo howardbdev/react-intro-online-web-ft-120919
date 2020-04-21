@@ -59,5 +59,6 @@ A JS comparison: JS template strings
 ### Let's play!!
 ## Getting started:
   run [`npx create-react-app`]
+
 [React]:https://reactjs.org
-[npx create-react-app]:https://reactjs.org/docs/create-a-new-react-app.html
+[`npx create-react-app`]:https://reactjs.org/docs/create-a-new-react-app.html
