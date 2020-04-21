@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Cars {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Car {
+  margin: 4px;
+  padding: 4px;
+  border-radius: 3px;
+  border-color: darkgray;
+  border-style: solid;
+  box-shadow: 3px 3px lightgray;
+  border-width: 1px;
+}
+
+.Car:hover {
+  border-width: 2px;
+  border-width: 2px;
+  box-shadow: 4px 4px lightsteelblue;
+}
