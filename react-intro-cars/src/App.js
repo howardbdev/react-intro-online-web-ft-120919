@@ -6,6 +6,7 @@ import Cars from './Cars.js'
 function App() {
   return (
     <div className="App">
+    <h1>🚗 React Cars 🚙</h1>
       <Cars />
     </div>
   );
