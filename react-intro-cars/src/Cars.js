@@ -1,31 +1,13 @@
 import React from 'react'
 import Car from "./Car.js"
-
-const cars = [
-  {
-    make: "Ford",
-    model: "F150",
-    year: "2000",
-    miles: "220000"
-  },
-  {
-    make: "Chevy",
-    model: "Silverado",
-    year: "2009",
-    miles: "250000"
-  },
-  {
-    make: "Tesla",
-    model: "Model S",
-    year: "2019",
-    miles: "500000"
-  },
-]
+// mocking a request to get data - just pulling an array of objects from a file
+import { carsData } from './data/cars.js'
 
 // class component
 export default class Cars extends React.Component {
+  // declare state using class fields
   state = {
-    cars
+    cars: carsData
   }
   // constructor(props) {
   //   super(props)
@@ -36,7 +18,7 @@ export default class Cars extends React.Component {
 
   render() {
 
-    const carCards = this.state.cars.map(car => <Car car={car}/>)
+    const carCards = this.state.cars.map(car => <Car key={car.id} car={car}/>)
 
     return (
       <div className="Cars">
