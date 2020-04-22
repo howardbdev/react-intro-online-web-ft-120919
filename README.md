@@ -3,11 +3,11 @@ Today we will:
 - understand, at a high-level, what React is
 - understand some of the basic features of React, including:
   - [virtual DOM]
-  - JSX
-  - class components
-  - function components
-  - props
-  - state
+  - [JSX]
+  - [class components]
+  - [function components]
+  - [props]
+  - [state]
 
 ## What is React?
   - a JavaScript library for building interfaces - websites
@@ -23,8 +23,8 @@ Today we will:
 
 ### [Babel] & [Webpack]
 
-  - [Babel]: transpiler
-  - [Webpack]: puts it all together
+  - [Babel]: transpiler -- allows us to use the latest and greatest JS!
+  - [Webpack]: puts it all together for us
 
 ### Components
 
@@ -76,12 +76,16 @@ _(*[HOC] = Higher Order Component - a function that takes another component as a
   run [`npx create-react-app`]
 
 [React]:https://reactjs.org
+[JSX]:https://reactjs.org/docs/introducing-jsx.html
+[class components]:https://reactjs.org/docs/components-and-props.html
+[function components]:https://reactjs.org/docs/components-and-props.html
+[props]:https://reactjs.org/docs/components-and-props.html
+[state]:https://reactjs.org/docs/state-and-lifecycle.html
 [virtual DOM]:https://reactjs.org/docs/faq-internals.html
 [JS strict mode]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
 [`React.StrictMode`]:https://reactjs.org/docs/strict-mode.html
 [Babel]:https://babeljs.io/
 [Webpack]:https://webpack.js.org/
-[JSX]:https://reactjs.org/docs/introducing-jsx.html
 [HOC]:https://reactjs.org/docs/higher-order-components.html
 [hooks]:https://reactjs.org/docs/hooks-intro.html
 [`this.setState()`]:https://reactjs.org/docs/react-component.html#setstate
