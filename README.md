@@ -1,6 +1,7 @@
-# Please note the master branch will keep up with the latest lecture using this repo, currently Component Lifecycle..
+# Please note the master branch will be the latest code.. to see code as it was based on a particular lecture, check out the other branches (see what I did there?  "check out" the other branches ...?  ok sorry I'll stop...)
 ## Other branches:
-- [`first lecture`] is for the first lecture, Intro to React 😁
+- [`first-lecture`] is for the first lecture, Intro to React 😁
+- [`component-lifecycle-lecture`] is for the first lecture, Intro to React 😁
 
 # [React]!!!!
 Today we will:
@@ -79,7 +80,8 @@ _(*[HOC] = Higher Order Component - a function that takes another component as a
 ## Getting started:
   run [`npx create-react-app`]
 
-[`first lecture`]:https://github.com/howardbdev/react-intro-online-web-ft-120919/tree/first-lecture
+[`first-lecture`]:https://github.com/howardbdev/react-intro-online-web-ft-120919/tree/first-lecture
+[`component-lifecycle-lecture`]:https://github.com/howardbdev/react-intro-online-web-ft-120919/tree/component-lifecycle-lecture
 [Component Lifecycle]:https://reactjs.org/docs/react-component.html
 [React]:https://reactjs.org
 [JSX]:https://reactjs.org/docs/introducing-jsx.html
