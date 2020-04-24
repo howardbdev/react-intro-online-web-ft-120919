@@ -1,7 +1,7 @@
 # Please note the master branch will be the latest code.. to see code as it was based on a particular lecture, check out the other branches (see what I did there?  "check out" the other branches ...?  ok sorry I'll stop...)
 ## Other branches:
 - [`first-lecture`] is for the first lecture, Intro to React 😁
-- [`component-lifecycle-lecture`] is for the first lecture, Intro to React 😁
+- [`component-lifecycle-lecture`] is for Thursday's component lifecycle lecture
 
 # [React]!!!!
 Today we will:
