@@ -35,13 +35,14 @@ class App extends React.Component {
           })
         })
 
-        const interval = setInterval(this.startInterval, 3000)
+        const interval = setInterval(this.setReview, 3000)
          this.setState({
            interval
          })
   }
 
-  startInterval = () => {
+  // I did change the name to match what this method is doing -- in the lecture I called it `startInterval` but that doesn't make sense -- I'm starting the interval inside componentDidMount
+  setReview = () => {
     // find a review at random
     // update the state with that review
     const review = this.state.dealerReviews[Math.floor(Math.random() * this.state.dealerReviews.length)]
