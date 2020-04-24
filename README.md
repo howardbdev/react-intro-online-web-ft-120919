@@ -1,3 +1,7 @@
+# Please note the master branch will keep up with the latest lecture using this repo, currently Component Lifecycle..
+## Other branches:
+- [`first lecture`] is for the first lecture, Intro to React 😁
+
 # [React]!!!!
 Today we will:
 - understand, at a high-level, what React is
@@ -75,6 +79,8 @@ _(*[HOC] = Higher Order Component - a function that takes another component as a
 ## Getting started:
   run [`npx create-react-app`]
 
+[`first lecture`]:https://github.com/howardbdev/react-intro-online-web-ft-120919/tree/first-lecture
+[Component Lifecycle]:https://reactjs.org/docs/react-component.html
 [React]:https://reactjs.org
 [JSX]:https://reactjs.org/docs/introducing-jsx.html
 [class components]:https://reactjs.org/docs/components-and-props.html
